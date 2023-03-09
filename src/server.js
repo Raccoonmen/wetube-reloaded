@@ -21,12 +21,12 @@ app.use(
     secret: process.env.COOKIE_SECRET,
     resave: true,
     saveUninitialized: true,
-    store: MongoStore.create({mongoUrl: process.env.DB_URL}),
+    store: MongoStore.create({ mongoUrl: process.env.DB_URL }),
   })
 );
 
-
 app.use(localsMiddleware);
+app.use("/uploads", express.static("uploads"));
 app.use("/", globalRouter);
 app.use("/videos", videoRouter);
 app.use("/users", userRouter);
