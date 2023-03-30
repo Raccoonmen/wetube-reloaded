@@ -1,5 +1,6 @@
 #Wetube Reloaded
 
+BACKEND PART
 - [x] / > home
 
 - [x] /join > join
@@ -14,9 +15,9 @@
 
 
 - [x] /videos/:id > Watch Video
-- [ ] /videos//:id/edit > Edit Video
-- [ ] /videos/:id/delete > Delete Video
-- [ ] /videos/upload > Upload Video
+- [x] /videos//:id/edit > Edit Video
+- [x] /videos/:id/delete > Delete Video
+- [x] /videos/upload > Upload Video
 
 
 
